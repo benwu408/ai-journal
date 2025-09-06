@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JournalEntry" representedClassName="JournalEntry" syncable="YES">
+        <attribute name="aiTopics" optional="YES" attributeType="String"/>
+        <attribute name="chatIsFromUser" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="chatMessageId" optional="YES" attributeType="String"/>
+        <attribute name="chatMessageText" optional="YES" attributeType="String"/>
+        <attribute name="chatTimestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="date" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="emotionTags" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="journalText" optional="YES" attributeType="String"/>
+        <attribute name="moodEmoji" optional="YES" attributeType="String"/>
+        <attribute name="moodValue" optional="NO" attributeType="Double" defaultValueString="2" usesScalarValueType="YES"/>
+        <attribute name="questions" optional="YES" attributeType="String"/>
+        <attribute name="reflectionPrompt" optional="YES" attributeType="String"/>
+        <attribute name="reflectionResponse" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="whyTags" optional="YES" attributeType="String"/>
+        <attribute name="whyText" optional="YES" attributeType="String"/>
+    </entity>
+</model> 
